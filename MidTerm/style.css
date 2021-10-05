@@ -92,3 +92,59 @@
     border-radius: 5px;
     border-color: black;
 }
+
+
+.line{
+    position: relative;
+    bottom: 10px;
+    border-bottom: 8px solid #222;
+    height: 10px;
+}
+.second{
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 600px;
+}
+
+.descr{
+    position: relative;
+    right: 320px;
+    top: 120px;
+    width: 500px;
+}
+
+.text4{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    color: white;
+}
+.text5{
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.telik{
+position: relative;
+bottom: 200px;
+left: 300px;
+}
+
+.telik .video{
+    position: relative;
+    z-index: 1;
+    bottom: 385px;
+    left: 70px;
+}
+
+.telik .img{
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
