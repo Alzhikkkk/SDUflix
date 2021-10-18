@@ -386,3 +386,29 @@ margin-right: 80px;
    font-size:13px;
    margin-bottom:0;
  }
+
+
+@media(max-width: 700px){
+        .showcase-content{
+          margin-top: 10px;
+        }
+        
+        .showcase-content h1,h2,h3{
+          font-size: 40px;
+        }
+
+        .showcase-content input{
+          bottom: -3px;
+          width: 200px;
+          height: 2rem;
+          left: -5px;
+        }
+
+        .showcase-content .btn-lg{
+          width: 10rem;
+          font-size: 0.9rem;
+          height: 2rem;
+          bottom:-3px;
+          right: -60px;
+        }
+  }
